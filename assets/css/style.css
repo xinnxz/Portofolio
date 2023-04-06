@@ -297,6 +297,7 @@ span{
 
 .about-img img{
     width: 35vw;
+    pointer-events: none;
 }
 
 .heading{
