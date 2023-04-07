@@ -215,11 +215,11 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: profesiRotasi 13s ease-in-out infinite;
+    animation: profesiRotasi 13s ease-out infinite;
 }
 
 @keyframes profesiRotasi {
-    0%, 20%{
+    0%, 20%{ 
         transform: rotate(0deg);
     }
     25%, 45%{
@@ -246,7 +246,7 @@ section{
     transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
     background: var(--bg-color);
-    padding: 13px 0;
+    padding: 10px 0;
 }
 
 .home .profesi i{
@@ -275,7 +275,7 @@ section{
     border-top: 384px solid var(--second-color);
     border-right: 384px solid var(--second-color);
     border-bottom: 384px solid var(--second-color);
-    border-left: 384px solid transparent;
+    border-left: 384px solid transparent; 
 }
 
 .home-img img{
@@ -733,8 +733,8 @@ span{
         width: 100%;
         padding: 1rem 3%;
         background: var(--bg-color);
-        border-top: .1rem solid rgba(0,0,0,.1);
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
         display: none;
     }
 
@@ -744,7 +744,7 @@ span{
 
     .navbar a{
         display: block;
-        padding: 1rem 3%;
+        margin: 3rem 0;
         font-size: 2rem;
         color: var(--text-color);
     }
@@ -778,16 +778,16 @@ span{
     }
 
     .home-content .social-media a{
-        margin: 2.5rem .7rem 3rem;
+        margin: 2.5rem .75rem 3rem;
     }
 
     .home .profesi-container .overlay{
         position: fixed;
-        top: 70rem;
+        top: 65rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
-        border-width: 24rem;
+        border-width: 23.9rem;
     }
 
     .home .profesi-container{
@@ -811,7 +811,7 @@ span{
     }
 
     .home .profesi-box .profesi:nth-child(1){
-        transform: rotate(-90deg) translate(-120px, -210px);
+        transform: rotate(-90deg) translate(-100px, -225px);
     }
 
     .home .profesi-box .profesi:nth-child(1) i{
@@ -823,11 +823,11 @@ span{
     }
 
     .home .profesi-box .profesi:nth-child(3){
-        transform: rotate(90deg) translate(-115px, -450px);
+        transform: rotate(90deg) translate(-68px, -400px);
     }
 
     .home .profesi-box .profesi:nth-child(4){
-        transform: rotate(180deg) translate(-220px, -335px);
+        transform: rotate(180deg) translate(-175px, -335px);
     }
     
     .home .profesi-box .circle{
@@ -903,19 +903,23 @@ span{
     }
 
     .home .profesi-box .profesi:nth-child(1){
-        transform: rotate(-90deg) translate(-110px, -220px);
+        transform: rotate(-90deg) translate(-50%, -240px);
     }
 
     .home .profesi-box .profesi:nth-child(2){
-        transform: rotate(0deg) translate(5px, -335px);
+        transform: rotate(0deg) translate(0px, -335px);
     }
 
     .home .profesi-box .profesi:nth-child(3){
-        transform: rotate(90deg) translate(-105px, -440px);
+        transform: rotate(90deg) translate(-50%, -400px);
     }
     
     .home .profesi-box .profesi:nth-child(4){
-        transform: rotate(180deg) translate(-210px, -335px);
+        transform: rotate(180deg) translate(-100%, -335px);
+    }
+
+    .home .profesi-container .overlay{
+        top: 65rem;
     }
 
     .contact form .input-box input{
