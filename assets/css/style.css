@@ -95,7 +95,7 @@ body{
 #menu-icon{
     font-size: 3.6rem;
     display: none;
-    color: var(--text-color);
+    cursor: pointer;
 }
 
 .header.sticky{
@@ -121,6 +121,9 @@ body{
     cursor: pointer;
 }
 
+.header.sticky #menu-icon{
+    color: var(--main-color);
+}
 
 /* section */
 section{
@@ -770,6 +773,7 @@ span{
     }
 
     .home-content h3 {
+        margin-top: 10rem;
         font-size: 2.6rem;
     }
 
