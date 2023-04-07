@@ -787,7 +787,7 @@ span{
 
     .home .profesi-container .overlay{
         position: fixed;
-        top: 65rem;
+        top: 60rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -923,7 +923,7 @@ span{
     }
 
     .home .profesi-container .overlay{
-        top: 65rem;
+        top: 60rem;
     }
 
     .contact form .input-box input{
