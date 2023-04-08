@@ -922,14 +922,6 @@ span{
         transform: rotate(180deg) translate(-100%, -335px);
     }
 
-    .home .profesi-container .overlay{
-<<<<<<< HEAD
-        top: 50rem;
-=======
-        top: 50rem;
->>>>>>> 15e31f2d8c55c1e200e110d6c395a76b866f1ab1
-    }
-
     .contact form .input-box input{
         width: 100%;
     }
